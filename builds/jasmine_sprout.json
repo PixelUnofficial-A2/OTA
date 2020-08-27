@@ -1,16 +1,16 @@
 {
 "error":false,
-"filename": PixelExperience_Plus_jasmine_sprout-10.0-20200721-1256-FAN_EDITION.zip,
-"datetime": 1595336160,
-"size":1331908924, 
-"url":"https://sourceforge.net/projects/private-dir/files/PixelExperience-Fan_Edition/decrypted/PixelExperience_Plus_jasmine_sprout-10.0-20200721-1256-FAN_EDITION.zip/download", 
-"filehash":"aa13e06f00990241264485b778ba5715", 
+"filename": PixelExperience_jasmine_sprout-10.0-20200827-0116-UNOFFICIAL.zip,
+"datetime": 1598490960,
+"size":1303672748, 
+"url":"https://sourceforge.net/projects/pixelexperienceunofficial-mia2/files/builds/PixelExperience_jasmine_sprout-10.0-20200827-0116-UNOFFICIAL.zip/download", 
+"filehash":"e54e35191ce76b8806310626dcc213d4", 
 "version": "10", 
-"id": "aa13e06f00990241264485b778ba5715",
-"donate_url": "https://www.paypal.me/aryan65",
-"website_url":"https://sourceforge.net/projects/private-dir/files/PixelExperience-Fan_Edition/Decrypted/",
-"news_url":"https:\/\/t.me\/pixeljasmine",
-"maintainer":"Aryan Gupta",
-"maintainer_url":"https:\/\/t.me/boozabooza",
-"forum_url":"#"
+"id": "e54e35191ce76b8806310626dcc213d4",
+"donate_url": "https://www.paypal.me/immanuelr44",
+"website_url":"https://sourceforge.net/projects/pixelexperienceunofficial-mia2/files/builds/",
+"news_url":"https:\/\/t.me\/mia2pixelunofficial",
+"maintainer":"Immanuel Raj",
+"maintainer_url":"https:\/\/t.me/Immanuel_Raj",
+"forum_url":"https://forum.xda-developers.com/mi-a2/development/rom-pixel-experience-t4138459"
 }
