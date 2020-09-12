@@ -1,0 +1,551 @@
+=======================
+     2020/09/12
+=======================
+
+* Repository: https://github.com/PixelUnofficial-A2/local_manifests/commits/master
+
+2d88561 added miui cam
+612120d local manifest for jasmine
+
+* Repository: https://github.com/PixelExperience/build/commits/ten
+
+37b5edd58 sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well
+
+* Repository: https://github.com/PixelUnofficial-A2/device_xiaomi_jasmine_sprout/commits/pe-10
+
+85b7236 Delete aosp.dependencies
+807d0e7 configs: audio: properly import stereomod
+4ca5760 configs: audio: set default headset volume
+
+* Repository: https://github.com/PixelUnofficial-A2/device_xiaomi_sdm660-common/commits/pe-10
+
+04e65a38 google standards for navbar
+15cb0b97 Added lens switch for dise gcam without magisk
+251259f4 changed default clang version to support pe
+
+* Repository: https://github.com/PixelExperience/frameworks_av/commits/ten
+
+a7d286645 Revert "audio policy: fix regression in USB audio"
+
+* Repository: https://github.com/PixelExperience/frameworks_opt_telephony/commits/ten
+
+f2924f1c0 Use FLAG_IMMUTABLE for MultiSimSettingController
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+1fc905d added local manifest for jasmine by default
+bfbf6fe changed manifest to this repo
+601a5f6 added manifest
+dd9ce8a my stuff
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+f7f92c25b0 Merge remote-tracking branch 'upstream/ten' into ten
+
+* Repository: https://github.com/LineageOS/android_packages_resources_devicesettings/commits/lineage-17.1
+
+ce90d23 Automatic translation import
+
+* Repository: https://github.com/PixelUnofficial-A2/vendor_aosp/commits/ten
+
+8b04a96c Merge remote-tracking branch 'upstream/ten' into ten
+
+
+=======================
+     2020/09/11
+=======================
+
+* Repository: https://github.com/PixelExperience/build/commits/ten
+
+346b77225 Bump security patch
+
+* Repository: https://gitlab.pixelexperience.org/android/external_motorola_faceunlock/commits/ten
+
+c53f4c2 Automatic translation import
+
+* Repository: https://github.com/PixelExperience/external_sonivox/commits/ten
+
+b3c2452 Check data consistency in mdls parsing
+
+* Repository: https://github.com/PixelExperience/frameworks_av/commits/ten
+
+88e67eb91 AudioFlinger: fix fast capture silence
+08851f9c8 Delete an uninitialized object in AACExtractor
+61e5b6aa7 clearkey hidl: fix oob read in decrypt
+b433266a0 audio policy: fix regression in USB audio
+
+* Repository: https://github.com/PixelExperience/frameworks_base/commits/ten
+
+1c3ece13ccd Automatic translation import
+3e6865b8b65 Mark implicit PendingIntents as immutable
+211dc0890ec DO NOT MERGE: Remove unused intent in NiNotification
+2f4a89f81a3 Add missing isShellUser check
+42a4bc90a33 Do not set referrerUri on SessionInfo for non-owners
+5c023b5c581 Tests no screenshot is copied when user consent timed out
+9c53a40f256 Revert "Ignores protected broadcasts if not priv-app"
+c5b02973f23 Make view intent immutable
+7e2b7a61edc Remove unused intent in NFW notification
+38e0febbef2 Only autoVerify at install for new hosts
+1f037cd1f30 DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package
+53569a2f784 Revert "Revoke 'always' web handler status when not autoverifying"
+7c19d098546 fixup - PackageManagerService: Protect forced enabled components at runtime
+50f1b5906c8 FODCircleView: Update FOD icon position on DreamingStateChanged
+a93c7489548 fixup - base: do not use new lockscreen layout for bypass
+
+* Repository: https://github.com/PixelExperience/frameworks_native/commits/ten
+
+348d2ba16 Call Layer::getLayerDebugInfo from the main thread
+3581e8e65 Copy Screenshot to fd if and only if user consent approved
+
+* Repository: https://github.com/PixelExperience/frameworks_opt_net_wifi/commits/ten
+
+404c346fb [Passpoint] Remove R2 broadcasts
+
+* Repository: https://github.com/PixelExperience/frameworks_opt_telephony/commits/ten
+
+bfb4e1ec5 Add package checking with Uid in EuiccController#getEid
+4b60dbed6 Use FLAG_IMMUTABLE for InstallCarrierAppUtils
+880ca9d18 Use FLAG_IMMUTABLE for InboundSmsHandler
+b2a1475ab Use FLAG_IMMUTABLE for CarrierKeyDownloadManager
+554675c64 Use FLAG_IMMUTABLE for CarrierServiceStateTracker
+7e754cbe7 Use FLAG_IMMUTABLE for ServiceStateTracker
+b3542133b Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity
+1928300a0 Added FLAG_IMMUTABLE flag for security purposes
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+1f94811 manifest: Track PackageInstaller
+e0d23c9 manifest: Track sonivox and PackageInstaller
+
+* Repository: https://github.com/PixelExperience/packages_apps_Bluetooth/commits/ten
+
+b9c04177 SAP: Ensure pending intent is immutable
+
+* Repository: https://github.com/PixelExperience/packages_apps_PackageInstaller/commits/ten
+
+fe806f5d DO NOT MERGE Use permission group definintion if defined in PermissionController
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+e77b615b54 Automatic translation import
+1975e820b6 Enable the filterTouchesWhenObscured in Special app access
+5e983e4d35 Prevent overlay drawing on top of Bluetooth discovery request dialog
+801ae3c5f0 Prevent overlay drawing on top of Bluetooth pairing dialog
+
+* Repository: https://github.com/PixelExperience/packages_resources_devicesettings-custom/commits/ten
+
+cb7f9ea Automatic translation import
+
+* Repository: https://github.com/PixelExperience/packages_services_Telephony/commits/ten
+
+4802f00ff Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr
+97c9498b1 Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity
+563fc6c3e Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent
+
+* Repository: https://github.com/PixelExperience/system_bt/commits/ten
+
+0a1e6d1c6 Fix possible OOB when receive gatt read type response data
+c90ed918a Remove pairing on incoming bond request
+16ea2f21f Enable bitpool sanity checks
+
+* Repository: https://github.com/PixelExperience/system_core/commits/ten
+
+daf242bad libutils: check vsnprintf error
+626b69a5e String16::remove - avoid overflow
+
+* Repository: https://github.com/PixelExperience/system_sepolicy/commits/ten
+
+e208123d Don't give uid-based categories to app_zygote and isolated processes.
+
+* Repository: https://github.com/PixelExperience/vendor_qcom_opensource_commonsys_packages_apps_Bluetooth/commits/ten
+
+606b96ac8 SAP: Ensure pending intent is immutable
+
+
+=======================
+     2020/09/10
+=======================
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+2b5ec8b961 Remove useless png and add vector drawable
+10bbbe3922 Remove "storage type" preference from Settings
+
+* Repository: https://github.com/PixelUnofficial-A2/vendor_aosp/commits/ten
+
+fa8844e4 extract_utils: Add support for system_ext
+
+
+=======================
+     2020/09/09
+=======================
+
+* Repository: https://gitlab.pixelexperience.org/android/external_motorola_faceunlock/commits/ten
+
+f3fb331 Automatic translation import
+
+* Repository: https://github.com/PixelExperience/frameworks_base/commits/ten
+
+aced0167f45 Automatic translation import
+33537d03ddf [BugFix][Fingerprint]fix client was canceled by service by mistake
+f499ba8e609 Revert "PowerManager: Add proximity check on wake"
+0d85ac52d42 Revert "PowerManager: Move custom API definition to end of AIDL"
+534f27f7867 SystemUI: Option to use linear scale in BrightnessController
+e88346823a1 Cleanup - Improve face unlock behavior on devices with popup camera
+d08a3765cdf Move config_faceAuthOnlyOnSecurityView to fwb/res
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+ac0b2d289d5f net: wireguard: update wireguard to version v1.0.20200908
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+33328db Revert "Remove unused frameworks/opt/datetimepicker"
+ff1e8b7 crowdin: Add external_motorola_faceunlock
+23a27d1 Track Email packages from aosp
+339b60a Track EmergencyInfo and SettingsIntelligence
+
+* Repository: https://github.com/PixelExperience/packages_apps_EmergencyInfo/commits/ten
+
+6f4c0f8 More theming improvement
+6f37bd2 EmergencyInfo: Improve category theming
+1fe990b Don't force status bar to be light
+
+* Repository: https://github.com/PixelExperience/packages_apps_Recorder/commits/ten
+
+1d2d6ab Automatic translation import
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+38e6ef4875 Automatic translation import
+20105027ce Revert "Settings: Add toggle for proximity wake"
+b1daee67b6 FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+
+* Repository: https://github.com/PixelExperience/packages_apps_SettingsIntelligence/commits/ten
+
+dc8f9fc fixup - InstalledAppResultTask: Remove overlays from search results
+811a4df Moar theming improvements
+08bd303 Import translations from pixel
+3f1e80f InstalledAppResultTask: Remove overlays from search results
+80eb14f Normalize dynamic search result in Japanese
+5f9c596 Scrolling search results and autorotate cause crash
+80a0139 Fix "null" string displaying in the breadcrumbs of search results.
+dbb7435 Correct colors for icons in "Search settings" for dark theme
+d274080 SettingsIntelligence: Regen database on build version change
+3106fe9 Themes: Adjust colors on searchbar background
+b6e573e SettingsIntelligence: Match Settings style
+
+* Repository: https://github.com/PixelExperience/packages_apps_TouchGestures/commits/ten
+
+719936f Automatic translation import
+
+* Repository: https://github.com/PixelExperience/packages_providers_DownloadProvider/commits/ten
+
+7ab5e010 Automatic translation import
+
+* Repository: https://github.com/PixelExperience/packages_resources_devicesettings-custom/commits/ten
+
+723219d Automatic translation import
+bd5d9bb Automatic translation import
+
+* Repository: https://github.com/PixelExperience/packages_services_BuiltInPrintService/commits/ten
+
+c0dd239 Automatic translation import
+
+* Repository: https://github.com/PixelExperience/system_bt/commits/ten
+
+dfa902459 Changed HID_DEV_MTU_SIZE from 64 to 512
+
+* Repository: https://github.com/PixelExperience/vendor_pixelstyle/commits/ten
+
+54f917e Don't override aosp SettingsIntelligence
+4f3b95b Add back SettingsIntelligenceGooglePrebuilt
+2b57b80 Remove custom storage manager overlay
+eb974a1 Revert "Import and build SafetyHub and SettingsIntelligenceGooglePrebuilt"
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_system_bt/commits/lineage-17.1
+
+614a3e2ac Changed HID_DEV_MTU_SIZE from 64 to 512
+
+
+=======================
+     2020/09/08
+=======================
+
+* Repository: https://github.com/PixelExperience/build/commits/ten
+
+31a941984 build_image: Allow disabling custom inode count calculation
+
+* Repository: https://github.com/PixelExperience/device_custom_sepolicy/commits/ten
+
+d756f5f sepolicy: Add pocket judge selinux policy
+6348929 sepolicy: Add selinux policy for pocket bridge
+
+* Repository: https://github.com/PixelExperience/device_mediatek_sepolicy/commits/ten
+
+4185aa0 device: mtk: sepolicy: Address Blobs Related Denials
+
+* Repository: https://gitlab.pixelexperience.org/android/external_motorola_faceunlock/commits/ten
+
+64ce698 Update prebuilt apk
+
+* Repository: https://github.com/PixelExperience/frameworks_base/commits/ten
+
+84517b7516d Improve face unlock behavior on devices with popup camera
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+ec6f7fd manifest: Remove pixel-devices-bitbucket remote
+
+
+=======================
+     2020/09/07
+=======================
+
+* Repository: https://github.com/PixelExperience/frameworks_base/commits/ten
+
+0bd0a52251a base: SystemUI: hide ringer button if alert slider is present
+12e128d4301 SystemUI: Improve alert slider dialog
+dcc04315c74 SystemUI: Introduce user interface for Alert Sliders
+a78d0f441b2 Fix CDM.requestNotificationAccess() in profile.
+7371d4a2186 FODCircleView: Add support for custom FP pressed icon
+ffd92dd97ee Revert "FODCircleView: Add Support for custom FP pressed icon"
+94f4a230f44 PackageInstaller: Fix crash when uninstalling apps with fragile data
+19eac6f030c Revert "UninstallAlertDialogFragment: Catch IllegalArgumentException"
+89d1a9450db Skip screen on animation when wake and unlock via biometrics
+208b6a60bde Show the nearby chip for images and files too.
+14f948afd23 PackageManagerService: Protect forced enabled components at runtime
+5e4bade04a8 fixup - Require unlocking to use cellular quick tile
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+028af256be3c touchscreen: import aospa dt2w changes
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+93742b9 Fix sync
+5a8ca0a Track system/libufdt
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+b9beab7dfb Settings: Account more 5G network modes
+cb1eefaae4 Add NR network type to "Global" mode preference
+
+* Repository: https://github.com/PixelExperience/system_netd/commits/ten
+
+23f9658b netd: Support wildcards in cached hosts file
+cfe0ce9a netd: Sort and cache hosts file data for fast lookup
+
+* Repository: https://github.com/PixelUnofficial-A2/vendor_aosp/commits/ten
+
+d744e2ba Revert "kernel: prevent additional config from being always rebuilt"
+031d85d6 kernel: Use CPATH for including host headers
+2d318075 kernel: prevent additional config from being always rebuilt
+61821a79 vendor: kernel: Add back support for custom dtboimg makefile
+32f35f13 Revert "kernel: Set full path to DTC"
+df64dff0 kernel: Add support for mkdtimg cfg_create
+35e49bf3 kernel: Switch to mkdtboimg.py
+d3bd6f9e kernel: Rework how DTB/DTBO are built
+740eba3e vendor: apns-conf: Add Hits APN
+944cc9a8 overlay: Remove voicemail number configs
+aae88e8d Revert "overlay: Enable Visual Voicemail for Verizon devices"
+955db4f0 vendor: Drop verity tool
+390a26f8 kernel: Set full path to DTC
+5b59f74e kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+5645ddcf vendor: apns-conf: Drop proxy for Movistar
+3abc217e vendor: Force enable Styles component
+44c6cd0f vendor: Keep some packages enabled
+66fbf8b4 vendor: update GMS updater component disable list
+aa8ddc9e vendor: GMS updater components disable list bringup
+fb5a0a17 vendor: Rename config_disabledComponents
+1f701f74 Revert "vendor: Drop gms overlays"
+
+
+=======================
+     2020/09/06
+=======================
+
+* Repository: https://github.com/PixelUnofficial-A2/device_xiaomi_sdm660-common/commits/pe-10
+
+8f1d3f29 sdm660-common: Add Pocket Lock Overlay
+
+
+=======================
+     2020/09/05
+=======================
+
+* Repository: https://github.com/PixelExperience/build_soong/commits/ten
+
+21e76870 Add support for macOS 11 SDK
+b95d812c Add support for 10.15 SDK
+
+* Repository: https://github.com/PixelExperience/external_toybox/commits/ten
+
+13596d51 Fix cp -r dir/. symlink child.
+5180ec76 Add failing test for cp -r dir/. symlink child.
+
+* Repository: https://github.com/PixelExperience/frameworks_opt_net_wifi/commits/ten
+
+75e9592ca HDM: Resolve concurrent access issue - defer execution
+42533d65c [HDM] Fix concurrency failure
+
+* Repository: https://github.com/PixelExperience/hardware_custom_interfaces/commits/ten
+
+73bf5a7 gnss-legacy: Bring back Beidou
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+92ccfb3456ae include/linux/ (device-mapper/kernel) : Fix Clang-12 warnings
+
+* Repository: https://github.com/PixelExperience/packages_apps_Nfc/commits/ten
+
+e17e403f Avoid NFC continuous crash
+
+* Repository: https://github.com/PixelExperience/system_libufdt/commits/ten
+
+249e851 mkdtboimg: Sanitize dt filename
+7c9976a mkdtboimg: Allow specifying full path for dtb
+94aa200 mkdtboimg: Add support to V0 DTBO image creation
+0033a69 mkdtboimg: Make filepath search recursive
+
+* Repository: https://github.com/PixelExperience/system_sepolicy/commits/ten
+
+a5258e1a Fix sepolicy_tests on Mac 10.15
+
+
+=======================
+     2020/09/04
+=======================
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+e1e917d6a2e6 lib/string.c: implement stpcpy
+ef04c6e069c5 Merge 4.4.235 from https://github.com/android-linux-stable/msm-4.4
+6aa4ef6f56af Merge 4.4.235 into kernel.lnx.4.4.r38-rel
+
+* Repository: https://github.com/PixelExperience/packages_resources_devicesettings-custom/commits/ten
+
+30aec73 devicesettings-custom: Add Strings needed for phoenix
+
+
+=======================
+     2020/09/03
+=======================
+
+* Repository: https://github.com/PixelExperience/bootable_recovery/commits/ten
+
+8f97c4e8 updater: Ignore ENOENT in some functions
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+aafe13390619 Linux 4.4.235
+bd80272251d2 ALSA: usb-audio: Update documentation comment for MS2109 quirk
+61f5f326ff04 HID: hiddev: Fix slab-out-of-bounds write in hiddev_ioctl_usage()
+14edfd508f43 btrfs: check the right error variable in btrfs_del_dir_entries_in_log
+973152b568cc usb: storage: Add unusual_uas entry for Sony PSZ drives
+3fae4606bc49 usb: host: ohci-exynos: Fix error handling in exynos_ohci_probe()
+e69382df6724 USB: Ignore UAS for JMicron JMS567 ATA/ATAPI Bridge
+1fa308e648c1 USB: quirks: Add no-lpm quirk for another Raydium touchscreen
+a0788be4fb41 usb: uas: Add quirk for PNY Pro Elite
+9c218a4ad3d1 USB: yurex: Fix bad gfp argument
+31f5f13cb06d device property: Fix the secondary firmware node handling in set_primary_fwnode()
+b7e4ff6327ae PM: sleep: core: Fix the handling of pending runtime resume requests
+6fa4be261454 xhci: Do warm-reset when both CAS and XDEV_RESUME are set
+dd45bd060396 XEN uses irqdesc::irq_data_common::handler_data to store a per interrupt XEN data pointer which contains XEN specific information.
+402050e52ce0 writeback: Fix sync livelock due to b_dirty_time processing
+05829bc2388c writeback: Avoid skipping inode writeback
+311e34b3b4dc writeback: Protect inode->i_io_list with inode->i_lock
+bf485f58b464 serial: 8250: change lock order in serial8250_do_startup()
+e779f66d74ff serial: pl011: Don't leak amba_ports entry on driver register error
+ac2148d3e671 serial: samsung: Removes the IRQ not found warning
+f24fa90862ac vt_ioctl: change VT_RESIZEX ioctl to check for error return from vc_resize()
+130c03c86d23 vt: defer kfree() of vc_screenbuf in vc_do_resize()
+e35d476bca93 USB: lvtest: return proper error code in probe
+ae021a904ac8 fbcon: prevent user font height or width change from causing potential out-of-bounds access
+6f8f77d9fd13 net: gianfar: Add of_node_put() before goto statement
+00b94b3e7898 scsi: ufs: Fix possible infinite loop in ufshcd_hold
+c86b5b56fb1b s390/cio: add cond_resched() in the slow_eval_known_fn() loop
+35af8a3a8402 jbd2: abort journal if free a async write error metadata buffer
+2889f4beb39c jbd2: make sure jh have b_transaction set in refile/unfile_buffer
+0a4314699907 i2c: rcar: in slave mode, clear NACK earlier
+08496baa4736 Revert "ath10k: fix DMA related firmware crashes on multiple devices"
+eebbe8dbd888 USB: sisusbvga: Fix a potential UB casued by left shifting a negative value
+d7bf4ae5b989 powerpc/spufs: add CONFIG_COREDUMP dependency
+0685dde3e21d media: davinci: vpif_capture: fix potential double free
+ef898164bf57 EDAC/ie31200: Fallback if host bridge device is already initialized
+bd64f40ad711 scsi: fcoe: Memory leak fix in fcoe_sysfs_fcf_del()
+a54a180e4c23 ceph: fix potential mdsc use-after-free crash
+753068bc2cdc scsi: iscsi: Do not put host in iscsi_set_flashnode_param()
+c75c7581937b locking/lockdep: Fix overflow in presentation of average lock-time
+28bec409535e drm/nouveau: Fix reference count leak in nouveau_connector_detect
+7592eb3b6cf8 drm/nouveau/drm/noveau: fix reference count leak in nouveau_fbcon_open
+a43f5de749e7 mips/vdso: Fix resource leaks in genvdso.c
+ab75ab9165de rtlwifi: rtl8192cu: Prevent leaking urb
+d22aec437d77 PCI: Fix pci_create_slot() reference count leak
+535f69f42171 selftests/powerpc: Purge extra count_pmc() calls of ebb selftests
+f515dc79ef81 scsi: lpfc: Fix shost refcount mismatch when deleting vport
+28e269f9e6ac drm/amdgpu/display: fix ref count leak when pm_runtime_get_sync fails
+9b1e3b74c4e3 drm/amdgpu: fix ref count leak in amdgpu_display_crtc_set_config
+0d097bfa614a drm/amd/display: fix ref count leak in amdgpu_drm_ioctl
+6d0364cd0f37 drm/amdgpu: fix ref count leak in amdgpu_driver_open_kms
+87fe5b5f59be drm/radeon: fix multiple reference count leak
+c9cfd9445098 drm/amdkfd: Fix reference count leaks.
+c533db361549 scsi: target: tcmu: Fix crash on ARM during cmd completion
+eb08c18bf7cb media: pci: ttpci: av7110: fix possible buffer overflow caused by bad DMA value in debiirq()
+ed36291b5c42 ASoC: tegra: Fix reference count leaks.
+1e2b25b071d3 ALSA: pci: delete repeated words in comments
+fe9184c3b534 powerpc/pseries: Do not initiate shutdown when system is running on UPS
+e6270d3cd095 bonding: fix a potential double-unregister
+8ddbef045e8c bonding: show saner speed for broadcast mode
+f7f299f1a502 ipvlan: fix device features
+a0953a565fb0 tipc: fix uninit skb->data in tipc_nl_compat_dumpit()
+c40fc891ca6c net: Fix potential wrong skb->protocol in skb_vlan_untag()
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Settings/commits/ten
+
+bb14583234 OTA stuff
+
+* Repository: https://github.com/PixelUnofficial-A2/packages_apps_Updates/commits/ten
+
+f09f0c6 Modified ota
+09191e0 Added my stuff
+785f281 Revert "Custom_strings: Rebrand to Pixel Extended"
+
+* Repository: https://github.com/PixelUnofficial-A2/vendor_aosp/commits/ten
+
+93a332c3 Enabled ota
+
+
+=======================
+     2020/09/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_prebuilts_tools-lineage/commits/lineage-17.1
+
+b0e4e6a tools-lineage: Add prebuilt DTC
+
+
+=======================
+     2020/09/01
+=======================
+
+* Repository: https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660/commits/master
+
+a150611d6c58 ARM: dts: fix power amplifier thermal readings
+
+
+=======================
+     2020/08/31
+=======================
+
+
+=======================
+     2020/08/30
+=======================
+
+* Repository: https://github.com/PixelUnofficial-A2/manifest/commits/ten
+
+ff4d1da Add remote for blobs on our gitlab
+e4eb507 Track faceunlock
+
+
